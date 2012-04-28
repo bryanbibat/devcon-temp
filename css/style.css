@@ -1,0 +1,33 @@
+.logo {
+    width:301px;
+    height:90px;
+    margin-bottom:40px;
+    display:block;
+    text-indent:-9999px;
+    background:url('../img/logo.png') no-repeat;
+}
+a {
+    color:#72b506 !important;
+    font-size:14px;
+}
+p {
+    font-family:Georgia, serif !important;
+}
+ul {
+    margin:0px !important;
+}
+ul li {
+    display:inline;
+    margin:0 5px;
+}
+.hero-unit {
+    background:#fff !important;
+}
+h3 {
+    margin-top:20px !important;
+    font-family:Georgia, serif !important;
+}
+footer p {
+    text-align:center;
+}
+
