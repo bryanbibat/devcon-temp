@@ -36,13 +36,29 @@ footer p {
   text-align: center;
 }
 .schedule-list tr td:first-child {
-  vertical-align: top;
   font-weight: bold;
   padding-right: 20px;
+}
+.schedule-list tr td {
+  vertical-align: top;
 }
 .partner-list li {
   float: left;
   text-align: center;
   width: 200px;
   height: 200px;
+}
+.container > .event-content {
+  margin-top: 20px;
+}
+.event-content p, .event-content p a, .event-content em {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 27px;
+  color: inherit;
+}
+.event-content small {
+  font-size: 14px;
+  font-weight: 200;
+  color: inherit;
 }
