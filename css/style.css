@@ -45,8 +45,9 @@ footer p {
 .partner-list li {
   float: left;
   text-align: center;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 150px;
+  display:block;
 }
 .container > .event-content {
   margin-top: 20px;
@@ -61,4 +62,20 @@ footer p {
   font-size: 14px;
   font-weight: 200;
   color: inherit;
+}
+#types tr td {
+    padding-right:20px;
+}
+#types tr td p {
+	font-size:12px;
+	line-height:18px;
+	font-family:Arial, sans-serif !important;
+	color: #666;
+}
+.partner_area {
+	border-top:2px #ccc solid;
+	border-bottom: 2px #ccc solid;
+	margin:50px 0;
+	padding:20px 0;
+	margin-left:0 !important;
 }
