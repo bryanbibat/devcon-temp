@@ -67,6 +67,13 @@ footer p {
   font-weight: 200;
   color: inherit;
 }
+
+.event-content .hint {
+  font-size: 14px;
+  font-weight: 200;
+  color: inherit;
+}
+
 #types tr td {
     padding-right:20px;
 }
