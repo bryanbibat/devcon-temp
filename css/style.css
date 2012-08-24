@@ -1,3 +1,7 @@
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
 .logo {
     width:301px;
     height:90px;
@@ -52,7 +56,7 @@ footer p {
 .container > .event-content {
   margin-top: 20px;
 }
-.event-content p, .event-content p a, .event-content em {
+.event-content p, .event-content p a {
   font-size: 18px;
   font-weight: 200;
   line-height: 27px;
@@ -78,4 +82,9 @@ footer p {
 	margin:50px 0;
 	padding:20px 0;
 	margin-left:0 !important;
+}
+
+ol.speaker-list li {
+  font-size: 16px;
+  margin-top: 4px;
 }
