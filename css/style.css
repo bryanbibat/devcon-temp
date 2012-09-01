@@ -55,6 +55,7 @@ footer p {
 }
 .container > .event-content {
   margin-top: 20px;
+  margin-bottom: 90px;
 }
 .event-content p, .event-content p a {
   font-size: 18px;
