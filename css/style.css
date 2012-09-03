@@ -96,3 +96,12 @@ ol.speaker-list li {
   font-size: 16px;
   margin-top: 4px;
 }
+
+.floating-poster {
+  float: right;
+  margin-left: 20px;
+}
+
+.post-poster {
+  margin-top: 40px;
+}
