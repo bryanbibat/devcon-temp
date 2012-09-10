@@ -48,6 +48,7 @@
 
           <h3>Venue:</h3>
           <p>UP Film Institute</p>
+          <div id="map_canvas"></div>
 
           <h3>Speakers:</h3>
           <p><em>in no particular order</em></p>
@@ -116,5 +117,24 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+      $(document).ready(function() {
+        $("#map_canvas").css({height: "300px", width: "400px"});
+        var myLatlng = new google.maps.LatLng(14.656944,121.066959);
+        var mapOptions = {
+          zoom: 15,
+          center: myLatlng,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: 'UP Film Institute'
+        });
+      });
+    </script>
   </body>
 </html>
